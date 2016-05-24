@@ -5,7 +5,6 @@
 .gradle/
 build/
 gradle/
-/test-output/*
 
 # Compiled source #
 ###################
@@ -48,3 +47,4 @@ gradle/
 ehthumbs.db
 Icon?
 Thumbs.db
+=======
