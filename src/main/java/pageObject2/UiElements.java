@@ -2,10 +2,15 @@ package pageObject2;
 
 import org.openqa.selenium.WebElement;
 
-interface UiElements {
+public interface UiElements {
 
-    void tap(WebElement element);
+    default void tap(WebElement element) {
+        element.click();
+    }
 
-    void typeInField(WebElement element, String text);
+    default void typeInField(WebElement element, String text) {
+        element.clear();
+        element.click();
+    }
 
 }

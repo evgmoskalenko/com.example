@@ -1,6 +1,6 @@
 package pageObject2;
 
-public class BasePage extends DriverHandler {
+public abstract class BasePage extends DriverHandler implements UiElements, Wait {
 
     protected UiElementsRe uiElementsRe;
     protected WaitRe waitRe;

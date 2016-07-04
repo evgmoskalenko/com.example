@@ -3,7 +3,7 @@ package pageObject2;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class HomePage extends BasePage implements UiElements, Wait {
+public class HomePage extends BasePage implements UiElements {
 
     WebElement usernameField = driver.findElement(By.id("user-name"));
     WebElement passwordField = driver.findElement(By.id("password"));
